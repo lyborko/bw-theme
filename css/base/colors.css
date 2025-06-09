@@ -1,0 +1,68 @@
+.brown1 {
+  color: var(--brown1);
+}
+.brown2 {
+  color: var(--brown2);
+}
+.brown3 {
+  color: var(--brown3);
+}
+.brown4 {
+  color: var(--brown4);
+}
+.brown5 {
+  color: var(--brown5);
+}
+
+.green1 {
+  color: var(--green1);
+}
+.green2 {
+  color: var(--green2);
+}
+.green3 {
+  color: var(--green3);
+}
+.green4 {
+  color: var(--green4);
+}
+.green5 {
+  color: var(--green5);
+}
+
+
+.primary-bg {
+color: var(--primary-bg);
+}
+
+.primary-text {
+color: var(--primary-text);
+}
+
+.accent {
+color: var(--accent);
+}
+
+.accent-hover {
+ color: var(--accent-hover);
+}
+
+.soft-contrast {
+color: var(--soft-contrast);
+}
+
+.highlight {
+color: var(--highlight);
+}
+
+.muted {
+color: var(--muted);
+}
+
+.error {
+color: var(--error);
+}
+
+.success {
+color: var(--success);
+}

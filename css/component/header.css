@@ -1,0 +1,22 @@
+.header-title {
+    color: #1c1919;
+    text-align: left;
+    font-family: "androgyne", sans-serif;
+    font-weight: 400;
+    font-size: 62px;
+  }
+
+.header-subtitle {
+    color: #1c1919;
+    text-align: left;
+    font-family: "androgyne", sans-serif;
+    font-weight: 400;
+    font-size: 32px;
+  }
+
+.header-logo {
+    width: 120px;
+    height: 120px;
+    background-image: url("../../images/logo860x860-brown-transparent.png");
+    background-size: 120px 120px;
+  }

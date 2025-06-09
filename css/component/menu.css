@@ -1,0 +1,183 @@
+.menu-left-ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #3c6db6;
+}
+
+.menu-left-li {
+  float: left;
+}
+
+.menu-left-li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+/*------------------------------------------------------------------------------------------------*/
+
+.menu-center-ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  /* background-color: var(--green5); */
+}
+
+.menu-center-li {
+  float: left;
+  color: var(--brown1);
+  font-weight: 800;
+  font-family: 'Metropolis', sans-serif;
+ }
+
+.menu-center-li a{ 
+  display: block;
+  border: 3px solid rgba(255, 255, 255, 0); /* Priehľadný rámček, musí byť , lebo sa poruší vertikalita */
+  outline: none; /* Odstráni predvolený prehliadačový rámček */
+  border-radius: 5px; /* Zaoblené rohy */
+  color: var(--brown1);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  transition: color 0.2s ease-in-out, 
+              text-shadow 0.2s ease-in-out, 
+              font-size 0.2s ease-in-out;
+}
+
+ .menu-center-li a:hover {
+    color: white; /* Cieľová farba */
+    text-shadow: 0 0 30px rgba(255, 255, 255, 0.8), 
+                 0 0 40px rgba(255, 255, 255, 0.6); /* Efekt žiarenia */
+    /* font-size: 1.1em; /* Zväčšenie písma */
+} 
+
+/* .menu-center-li a:focus, a:active {
+  color: var(--brown5);
+  background-color: var(--brown1);
+ /* border: 3px solid var(--brown2);
+  outline: none; /* Odstráni predvolený prehliadačový rámček */
+ /* border-radius: 5px; /* Zaoblené rohy */
+ /* box-shadow: 0 0 5px rgba(255, 165, 0, 0.6); /* Jemný tieň */
+ /* text-shadow: 0 0 10px rgba(94, 94, 5, 0.8), 
+               0 0 20px rgba(246, 246, 5, 0.6);*/
+/*}*/ 
+
+.menu-center-li.active {
+  color: var(--brown5);
+  background-color: var(--brown1);
+  border: 3px solid var(--brown2);
+  outline: none; /* Odstráni predvolený prehliadačový rámček */
+  border-radius: 5px; /* Zaoblené rohy */
+  box-shadow: 0 0 5px rgba(255, 165, 0, 0.6); /* Jemný tieň */
+  text-shadow: 0 0 10px rgba(94, 94, 5, 0.8), 
+               0 0 20px rgba(246, 246, 5, 0.6);
+}
+/* .menu-center-li a {
+  font-size: 2rem;
+  color: #ffffff;
+  position: relative;
+  display: inline-block;
+}
+
+
+ .menu-center-li a::after,
+.menu-center-li a::before {
+  content: '';
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background: linear-gradient(to right, #ff0000, #00ffff);
+  bottom: -5px;
+  left: 0;
+  transform: scaleX(0);
+  transform-origin: right;
+  transition: transform 0.4s ease-out;
+}
+
+.menu-center-li a::before {
+  top: -5px;
+  transform-origin: left;
+}
+
+.menu-center-li a:hover::after,
+.menu-center-li a:hover::before {
+  transform: scaleX(1);
+}  */
+
+/*---------------------------       menu-right     ---------------------------------------------*/
+
+.menu-right-ul {
+  display: flex;
+  justify-content: flex-end;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  /* background-color: var(--green5); */
+  flex-direction: row;
+}
+
+.menu-item-brown-box {
+  float: left;
+  border: 1px solid var(--brown2);
+  margin-left: 5px;
+  /* background-color: var(--brown1); */
+  outline: none; /* Odstráni predvolený prehliadačový rámček */
+  border-radius: 15px; /* Zaoblené rohy */
+  font-weight: 700;
+  padding: 14px 16px;
+  text-align: center;
+  
+}
+
+.menu-item-brown-box a {
+  /* display: block; */
+  text-decoration: none;
+  color: var(--brown2);
+}
+
+
+.menu-item-green-box {
+  float: left;
+  border: 1px solid var(--green1);
+  margin-left: 5px;
+  /* background-color: var(--brown1); */
+  outline: none; /* Odstráni predvolený prehliadačový rámček */
+  border-radius: 15px; /* Zaoblené rohy */
+  font-weight: 700;
+  padding: 14px 16px;
+  text-align: center;
+  
+}
+
+.menu-item-green-box a {
+  /* display: block; */
+  text-decoration: none;
+  color: var(--green1);
+}
+
+
+.menu-item-log {
+  float: left;
+  border: 1px solid var(--green1);
+  margin-left: 5px;
+   background-color: var(--green1); 
+  outline: none; /* Odstráni predvolený prehliadačový rámček */
+  border-radius: 15px; /* Zaoblené rohy */
+  font-weight: 700;
+  padding: 14px 16px;
+  text-align: center;
+  
+}
+
+.menu-item-log a {
+  /* display: block; */
+  text-decoration: none;
+  color: var(--green5);
+}
