@@ -43,6 +43,24 @@ p {
     font-family: 'Metropolis', sans-serif;
 }
 
+.person-work-position {
+  font-family: 'Metropolis', sans-serif;
+  font-size: 10px;
+}
+
+.person-telephone {
+  font-family: 'Metropolis', sans-serif;
+  text-decoration: none;
+  /* font-size: 12px; */
+  color: var(--inkaCapucino);
+}
+
+.person-email {
+  font-family: 'Metropolis', sans-serif;
+  text-decoration: none;
+  /* font-size: 12px; */
+  color: var(--inkaCapucino);
+}
 
 input {
     background-color: var(--brown1);

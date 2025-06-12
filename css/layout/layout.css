@@ -9,8 +9,9 @@
 }
 
 .layout-container {
-  background-color: antiquewhite;
-  background-image: url("../../images/background-image-ambient2.png");
+  background-color: var(--inkaBG);
+  /* background-color: antiquewhite;
+  /* background-image: url("../../images/background-image-ambient2.png"); */
   min-height: 100%;
   display: flex;
   flex-direction: column;
@@ -97,6 +98,24 @@
   /* width: 100%; */
 }
 
+
+.layout-person {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: var(--inkaBG);
+  color: var(--inkaCapucino);
+  padding: 1rem;
+  font-family: 'Metropolis', sans-serif;
+  gap: 2rem;
+}
+
+.layout-person-description {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: left;
+}
 /* Responsive Layout */
 /* @media (max-width: 768px) {
     .layout-main {
